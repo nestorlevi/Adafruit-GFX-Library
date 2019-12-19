@@ -1579,7 +1579,6 @@ void Adafruit_GFX_Button::initButtonUL(
   
   uint8_t len =  _w / (6 * _textsize_x);
   _label = new char[len];
-  Serial.println(len,DEC);
   strlcpy(_label, label, len);
 }
 
